@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,700");
+@import url("https://fonts.googleapis.com/css?family=Rubik+One:400");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,800");
+
+/* Written by Arturs */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Rubik;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body p {
+    color: #616161;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+}
+body h1 {
+    line-height: 55px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+}
+body a {
+    letter-spacing: 0.14em;
+}
+
+/**** Nav ****/
+
+nav {
+    padding: 0 4rem;
+  }
+  #NavBar {
+    justify-content: end;
+  }
+  .navbar-brand {
+    text-decoration: none;
+    font-family: Rubik One;
+    font-style: normal;
+    font-size: 65px;
+    font-weight: normal;
+    color: #ec5863 !important;
+    letter-spacing: 0;
+  }
+  .navbar-brand:hover {
+    color: #ec5863;
+  }
+  .nav-link:hover {
+    color: #000000;
+  }
+  .nav-items li {
+    list-style: none;
+    margin-right: 3rem;
+  }
+  .nav-items li a {
+    color: #000000;
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12.5px;
+    letter-spacing: 0.14em;
+  }
+  
+  .nav-button {
+    text-align: center;
+  }
+  .nav-items #schedule {
+    text-align: center;
+  }
+  @media screen and (min-width: 992px) {
+    .nav-button {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      border-radius: 5px;
+      padding: 0.25rem 0.5rem;
+      cursor: pointer;
+  
+      transition: 200ms;
+    }
+    .nav-button:hover {
+      background-color: #d3d3d3;
+    }
+    .nav-items #schedule {
+      margin-right: 0;
+      margin-left: 7rem;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .nav-button {
+      display: inline;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      border-radius: 5px;
+      padding: 0.25rem 0.5rem;
+      cursor: pointer;
+      background-color: #d3d3d3;
+    }
+  }
+  
+  #schedule a {
+    margin-bottom: 0;
+    color: #fcfdfe;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.14em;
+    background: #4285f4;
+    display: inline-block;
+    padding: 13px 33px;
+    border-radius: 5px;
+  
+    transition: 200ms;
+  }
+  #schedule a:hover {
+    background-color: #4285f4;
+    transform: scale(1.2);
+  }
+  
+  /**** Nav end ****/
+
+/* Top */
+
+#top {
+    padding: 4rem 8rem;
+}
+
+/* Content in header */
+
+.content {
+    padding-right: 10rem;
+}
+.content h1 {
+    margin-bottom: 5rem;
+}
+.content p {
+    margin-bottom: 5.5rem;
+    margin-left: 1rem;
+}
+.content p a {
+    color: black;
+}
+
+/* Buttons */
+
+.content a,
+.card-text a,
+.carousel-learn-more {
+    color: #fcfdfe;
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 0.14em;
+
+    padding: 13px 24px;
+    margin-left: 10px;
+    border-radius: 5px;
+
+    transition: 200ms;
+}
+
+/* Button with starting colour blue */
+
+.blue {
+    background-color: #4285f4;
+}
+
+.blue:hover {
+    background-color: #ec5863;
+}
+
+/* Button with starting colour red */
+.red {
+    background-color: #ec5863;
+}
+
+.red:hover {
+    background-color: #4285f4;
+}
+
+/* Image without box */
+
+.img-no-box img {
+    max-height: 20rem;
+}
+.courses {
+    height: 143px;
+    text-align: center;
+}
+
+.courses p {
+    margin-top: 2rem;
+    max-width: 50rem;
+}
+
+/* Courses/card*/
+
+.cards div {
+    margin: auto;
+    align-items: inherit;
+}
+
+.card {
+    width: 20rem;
+    height: 25rem;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+
+    background-color: white;
+
+    list-style: none;
+    border-radius: 15px;
+    padding: 0 8px;
+    box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.1);
+}
+.card-text {
+    margin: 0;
+}
+
+.card-image img {
+    margin: 0;
+    max-height: 6rem;
+    width: auto;
+}
+.card-text h2 {
+    margin-bottom: 1rem;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card-text a {
+    margin-bottom: 10rem;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    border-radius: 6px;
+    padding: 6px 11px;
+}
+
+/* SEP */
+
+.headline-in-box-container {
+    height: 10rem;
+}
+.headline-box {
+    text-align: center;
+    align-items: center;
+    height: 8rem;
+    margin: 0 380px;
+    padding-top: 2.2rem;
+
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.1);
+}
+
+.image-in-box {
+    width: 652px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.1);
+
+    background-color: #fff;
+}
+.image-in-box img {
+    width: 572px;
+    height: 336px;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+/* Footer */
+
+footer {
+    width: auto;
+    min-height: 9rem;
+    background-color: #b3b3b3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-logo {
+    text-align: start;
+    padding-left: 2rem;
+
+    font-family: Rubik One;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: normal;
+    color: #ec5863;
+    letter-spacing: 0;
+}
+.contact-via {
+    text-align: end;
+    padding-right: 2rem;
+}
+.contact-via h3 {
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+
+    color: #ec5863;
+}
+.contact-via p {
+    margin-bottom: 5px;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 70px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+
+.social-icons div img {
+    height: 40px;
+    width: 40px;
+}
+.copyright {
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+}
+
+/* Written by Ondrej */
+
+/* Top */
+
+
+
+/* Carousel */
+
+.carousel {
+    margin-bottom: 0.8rem;
+}
+.carousel-control-prev:hover {
+    border-radius: 20px 0 0 20px;
+    background-color: rgba(66,133,244,0.5);
+}
+.carousel-control-prev {
+    border-radius: 20px 0 0 20px;
+    background-color: rgba(236,88,99,0.5);
+}
+.carousel-control-next:hover {
+    border-radius: 0 20px 20px 0;
+    background-color: rgba(66,133,244,0.5);
+}
+.carousel-control-next {
+    border-radius: 0 20px 20px 0;
+    background-color: rgba(236,88,99,0.5);
+}
+
+.carousel-inner {
+    background: white url(Images/CoursesBackground.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#carousel-caption {
+    margin-bottom: 10px; !important;
+}
+
+.carousel-indicators button {
+    background-color: #4285f4;
+    /*border: 1px solid #ec5863;*/
+}
+
+.carousel-indicators .active {
+    background-color: #ec5863;
+}
+
+#dma-par {
+    color: #a5a5a5;
+}
+
+#dma-par h3 {
+    color: #c3c3c3;
+}
+

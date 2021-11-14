@@ -1,0 +1,637 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,700");
+@import url("https://fonts.googleapis.com/css?family=Rubik+One:400");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,800");
+
+/* Written by Arturs */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Rubik;
+  margin: 0;
+  padding: 0;
+}
+body p {
+  color: #616161;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+}
+body h1 {
+  line-height: 55px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+}
+body a {
+  letter-spacing: 0.14em;
+}
+
+/* Wrapper */
+
+.wrapper {
+  width: 1265px;
+  margin: 0 auto;
+}
+
+#top {
+  margin-left: 70px;
+}
+
+/* Frames*/
+
+.top-frame {
+  height: 835px;
+  width: auto;
+  background: #fafbfd url(Final website/Images/Background.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.courses-container {
+  height: 630px;
+  width: auto;
+  background: white url(Final website/Images/CoursesBackground.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/***** Written by Ondrej *****/
+
+#flipped {
+  -webkit-transform: scaleX(-1);
+}
+#sep-container {
+  margin: 75px 0 100px 0;
+}
+
+/*****  *****/
+
+.sep-container {
+  height: 800px;
+  width: auto;
+  background-color: white;
+}
+.footer-container {
+  height: 150px;
+  background-color: #e8e9eb;
+}
+/**** Nav ****/
+
+nav {
+  padding: 0 4rem;
+}
+#NavBar {
+  justify-content: end;
+}
+.navbar-brand {
+  text-decoration: none;
+  font-family: Rubik One;
+  font-style: normal;
+  font-size: 65px;
+  font-weight: normal;
+  color: #ec5863 !important;
+  letter-spacing: 0;
+}
+.navbar-brand:hover {
+  color: #ec5863;
+}
+.nav-link:hover {
+  color: #000000;
+}
+.nav-items li {
+  list-style: none;
+  margin-right: 3rem;
+}
+.nav-items li a {
+  color: #000000;
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12.5px;
+  letter-spacing: 0.14em;
+}
+
+.nav-button {
+  text-align: center;
+}
+.nav-items #schedule {
+  text-align: center;
+}
+@media screen and (min-width: 992px) {
+  .nav-button {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+
+    transition: 200ms;
+  }
+  .nav-button:hover {
+    background-color: #d3d3d3;
+  }
+  .nav-items #schedule {
+    margin-right: 0;
+    margin-left: 7rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .nav-button {
+    display: inline;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    background-color: #d3d3d3;
+  }
+}
+
+#schedule a {
+  margin-bottom: 0;
+  color: #fcfdfe;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.14em;
+  background: #4285f4;
+  display: inline-block;
+  padding: 13px 33px;
+  border-radius: 5px;
+
+  transition: 200ms;
+}
+#schedule a:hover {
+  background-color: #4285f4;
+  transform: scale(1.2);
+}
+
+/**** Nav end ****/
+
+/* Footer */
+
+footer {
+  width: auto;
+  min-height: 9rem;
+  background-color: #b3b3b3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-logo {
+  text-align: start;
+  padding-left: 2rem;
+
+  font-family: Rubik One;
+  font-style: normal;
+  font-size: 60px;
+  font-weight: normal;
+  color: #ec5863;
+  letter-spacing: 0;
+}
+.contact-via {
+  text-align: end;
+  padding-right: 2rem;
+}
+.contact-via h3 {
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+
+  color: #ec5863;
+}
+.contact-via p {
+  margin-bottom: 5px;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 70px;
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+
+.social-icons div img {
+  height: 40px;
+  width: 40px;
+}
+.copyright {
+  position: relative;
+  font-size: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+  .desktop {
+    display: none;
+  }
+  .footer-logo {
+    text-align: center;
+    padding: 0;
+  }
+  .contact-via {
+    text-align: center;
+    padding: 0;
+  }
+  .contact-via h3 {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .mobile {
+    display: none;
+  }
+}
+
+/*Schedule button*/
+
+/* Header */
+
+header {
+  line-height: 55px;
+
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  line-height: 55px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+}
+header p {
+  line-height: 17px;
+}
+
+/* Content in header */
+
+.content {
+  width: 100%;
+}
+
+.content p {
+  margin-bottom: 60px;
+  margin-left: 10px;
+}
+.content p a {
+  color: black;
+}
+
+/* Buttons */
+
+.content a,
+.card-text a {
+  color: #fcfdfe;
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+
+  padding: 13px 24px;
+  margin-left: 10px;
+  border-radius: 5px;
+
+  transition: 200ms;
+}
+
+/* Button with starting colour blue */
+.blue {
+  background-color: #4285f4;
+}
+
+.blue:hover {
+  background-color: #ec5863;
+}
+
+/* Button with starting colour red */
+.red {
+  background-color: #ec5863;
+}
+
+.red:hover {
+  background-color: #4285f4;
+}
+
+/* Top */
+
+.top {
+  width: 100%;
+}
+.top-header-container {
+  height: 450px;
+  margin-bottom: 100px;
+}
+
+/* Image without box */
+
+.img-no-box img {
+  height: 438px;
+  margin-bottom: 10px;
+}
+
+/* Contact Us(Written by Bhupas) */
+
+.contact-us-text-container {
+  height: 143px;
+  margin: 90px 0;
+}
+
+.card-text .mail a {
+  color: #616161;
+  font-family: Rubik;
+  font-style: normal;
+}
+.content h1 {
+  margin-bottom: 50px;
+}
+.contact-us-container {
+  background: white;
+  height: auto;
+  padding-bottom: 90px;
+}
+/* Courses */
+.courses-text-container {
+  height: 143px;
+}
+.courses {
+  height: 143px;
+  text-align: center;
+}
+.courses h1 {
+  margin-top: 95px;
+}
+.courses p {
+  margin-top: 20px;
+  padding: 0 300px;
+}
+
+/* Courses/card*/
+#cards-wrapper {
+  padding: 0;
+  width: 1440px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: grid;
+  width: auto;
+  grid-gap: 50px 90px;
+  grid-template-columns: repeat(3, minmax(320px, 90px));
+  /*Change number according of cards in a row. ex: 3 cards in landing page
+  2 cards for different page*/
+  align-items: center;
+  padding-top: 100px;
+  margin-inline: auto;
+
+  /*
+  Fixed position for cards. Grid works better.
+
+  display: flex;
+  width: 1440px;
+  height: 340px;
+  align-items: center;
+  text-align: center;
+  padding: 0 100px; */
+}
+/*
+Spacing for the cards so it looks centered
+
+#first-button {
+  margin-left: 100px;
+} */
+.card {
+  width: 80%;
+  height: 340px;
+  margin-left: auto;
+  margin-top: auto;
+
+  text-align: center;
+
+  background-color: white;
+
+  border-radius: 15px;
+
+  box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.1);
+}
+
+.card-image {
+  margin-top: 10px;
+}
+flex .card-image img {
+  height: 190px;
+  width: 175px;
+}
+.card-text h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+.card-text p {
+  margin-bottom: 10px;
+  padding: 0 30px;
+  height: 43px;
+}
+.card-text p address {
+  color: black !important;
+}
+
+/* Learn more button*/
+
+.card-text a {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  border-radius: 6px;
+  padding: 6px 11px;
+}
+
+/***** Written by Ondrej *****/
+
+/* Courses page */
+
+.course-headline-container {
+  margin-top: 50px;
+}
+.course-content {
+  margin-right: 120px;
+}
+.course-content p {
+  margin-bottom: 60px;
+  margin-left: 10px;
+
+  font-weight: 400;
+}
+#rwd-p,
+#rwd-img,
+#rwd-headline-container {
+  -webkit-transform: scaleX(-1);
+}
+
+#SDJ-content {
+  margin-bottom: 75px;
+}
+
+/* h4 */
+
+h4 {
+  color: #616161;
+  text-align: center;
+}
+
+/* SEP page */
+
+#sep-content p {
+  margin-bottom: 0;
+}
+#sep-content {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.1);
+
+  padding: 10px 10px;
+}
+
+/*****  *****/
+
+/* SEP */
+
+.headline-in-box-container {
+  height: 140px;
+  margin-bottom: 120px;
+}
+.headline-box {
+  text-align: center;
+  height: 140px;
+  margin: 0 380px;
+
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.1);
+}
+.headline-box h1 {
+  padding-top: 48px;
+}
+
+/* SEP Content */
+
+.sep-header {
+  height: 400px;
+}
+
+/* Image */
+
+.image-in-box {
+  margin-right: auto;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.1);
+
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+.image-in-box img {
+  width: auto;
+  height: 336px;
+}
+
+.contact_head {
+  height: 140px;
+  text-align: center;
+  width: 50%;
+
+  margin-bottom: 10px;
+  margin-top: 79px;
+  margin-left: auto;
+  align-items: inherit;
+  margin-inline: auto;
+
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.1);
+  padding-top: 48px;
+}
+
+/* Schedule(Written by Siddhartha) */
+
+.head {
+  height: 140px;
+  text-align: center;
+  width: 50%;
+
+  margin-bottom: 70px;
+  margin-top: 79px;
+  margin-left: auto;
+  align-items: inherit;
+  margin-inline: auto;
+
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.1);
+  padding-top: 48px;
+}
+@media screen and (min-width: 1001px) {
+  .schedule-table {
+    font-size: 20px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1000px) {
+  .schedule-table {
+    font-size: 10px;
+  }
+}
+
+table tr:first-child th {
+  padding: 8px 10px;
+  background-color: #ec5863;
+  color: white;
+}
+.time {
+  background-color: #4285f4;
+  font-weight: bold;
+  color: white;
+}
+.schedule-table th,
+td {
+  text-align: center;
+
+  border: 5px groove #ec5863 !important;
+}
+
+th {
+  font-weight: bolder;
+}
+td {
+}
+
+#logo2 {
+  background: white;
+  color: #ec5863;
+}
+table {
+  width: 100%;
+  table-layout: fixed;
+  height: 450px;
+  padding: 0;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
