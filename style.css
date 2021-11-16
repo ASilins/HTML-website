@@ -481,10 +481,15 @@ footer {
 }
 
 .carousel-inner {
+  max-height: 55rem;
   background: white url(Images/CoursesBackground.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+
+.carousel-item {
+  height: 100%;
 }
 
 #carousel-caption {
@@ -505,8 +510,4 @@ footer {
 }
 .carousel-par {
   color: #000;
-}
-
-.carousel-dma-h3 {
-  color: #fff;
 }
