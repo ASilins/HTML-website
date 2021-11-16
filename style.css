@@ -103,6 +103,12 @@ nav {
   }
 }
 
+@media screen and (max-width: 464px) {
+  nav {
+    padding: 0 1rem;
+  }
+}
+
 #schedule a {
   margin-bottom: 0;
   color: #fcfdfe;
@@ -151,34 +157,20 @@ nav {
 
 /* Image without box */
 
-
-
-/*
-@media screen and (max-width: 540px) {
-  .img-no-box {
-    max-width: 80%;
-  }
-}
-@media screen and (min-width: 992px) {
-  .content {
-    padding-right: 10rem;
-  }
+.no-box-sep {
+  margin-top: auto;
+  width: 50%;
+  padding-bottom: 10px;
 }
 
+.no-box-sep img {
+  padding: 1rem 0;
+  width: 80%;
+  height: 100%;
+  margin: 0 10%;
+}
 
- */
 @media screen and (max-width: 991px) {
-  .img-no-box {
-    margin-top: 10rem;
-    padding: 0;
-    margin-left: 0;
-  }
-  .image-in-box {
-    margin: 5rem 0;
-  }
-
-
-
   .sep,
   .top {
     padding: 0;
@@ -190,6 +182,9 @@ nav {
   }
   .content p {
     margin-left: 0;
+  }
+  .no-box-sep img {
+    margin-top: 2rem;
   }
 }
 
@@ -216,7 +211,6 @@ nav {
 
 .blue {
   background-color: #4285f4;
-
 }
 
 .blue:hover {
@@ -246,49 +240,10 @@ nav {
 
 /* contact By Bhupas*/
 
-
-.no-box-sep{
-  margin-top: auto;
-  width: 50%;
-  padding-bottom: 10px;
-
-}
-
-.no-box-sep img {
-  padding: 1rem 0;
-  width: 80%;
-  high:100%;
-  margin: 0 10%;
-}
-
-.contact_head {
-  height: 140px;
-  text-align: center;
-  width: 60%;
-  margin-top: 79px;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-  margin-inline: fill;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.1);
-  padding-top: 48px;
-  margin-bottom: 80px;
-}
-
-
-contact-us-text-container {
-  height: 143px;
-  margin: 90px 0;
-  align-items: center;
-}
-
 .card-text .mail a {
   color: #616161;
   font-family: Rubik;
   font-style: normal;
-
 }
 .card-text a {
   color: #fcfdfe;
@@ -302,7 +257,6 @@ contact-us-text-container {
   margin-left: 10px;
   border-radius: 5px;
   transition: 200ms;
-
 }
 
 .card {
@@ -362,13 +316,11 @@ contact-us-text-container {
 }
 
 .headline-box h1 {
-  display: inline-block;
-  background-color: white;
   padding: 1.5rem 0;
+  font-size: 5vw;
 }
 
-
-.image-in-box-sep{
+.image-in-box-sep {
   margin-top: 10%;
   width: 50%;
   border-radius: 10px;
@@ -376,45 +328,32 @@ contact-us-text-container {
   background-color: #fff;
   margin-bottom: 10%;
   padding-bottom: 10px;
-
 }
 
 .image-in-box-sep img {
   padding: 1rem 0;
   width: 80%;
-  high:100%;
+  height: 100%;
   margin: 0 10%;
   margin-top: 5%;
 }
-.image-in-box-index{
+.image-in-box-index {
   width: 50%;
   border-radius: 10px;
   box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.1);
   background-color: #fff;
   margin-bottom: 10%;
   padding-bottom: 10px;
-
 }
 .image-in-box-index img {
   padding: 1rem 0;
   width: 80%;
-  high:100%;
+  height: 100%;
   margin: 0 10%;
   margin-top: 5%;
 }
 
-
-
-/*
-.content-sep {
-  margin-bottom:10%
-}
-
- */
-
-
 /* End of Sep*/
-
 
 /* Footer */
 
@@ -501,32 +440,37 @@ footer {
 }
 .carousel-control-prev:hover {
   border-radius: 20px 0 0 20px;
-  background-color: rgba(66,133,244,0.5);
-  transition: .5s;
+  background-color: rgba(66, 133, 244, 0.5);
+  transition: 0.5s;
 }
 .carousel-control-prev {
   border-radius: 20px 0 0 20px;
-  background-color: rgba(236,88,99,0.5);
+  background-color: rgba(236, 88, 99, 0.5);
 }
 .carousel-control-next:hover {
   border-radius: 0 20px 20px 0;
-  background-color: rgba(66,133,244,0.5);
-  transition: .5s;
+  background-color: rgba(66, 133, 244, 0.5);
+  transition: 0.5s;
 }
 .carousel-control-next {
   border-radius: 0 20px 20px 0;
-  background-color: rgba(236,88,99,0.5);
+  background-color: rgba(236, 88, 99, 0.5);
 }
 
 .carousel-inner {
+  max-height: 55rem;
   background: white url(Images/CoursesBackground.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
+.carousel-item {
+  height: 100%;
+}
+
 #carousel-caption {
-  margin-bottom: 10px; !important;
+  margin-bottom: 10px !important;
 }
 
 .carousel-indicators button {
