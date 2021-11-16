@@ -240,28 +240,6 @@ nav {
 
 /* contact By Bhupas*/
 
-.contact_head {
-  height: 140px;
-  text-align: center;
-  width: 60%;
-  margin-top: 79px;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-  margin-inline: fill;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.1);
-  padding-top: 48px;
-  margin-bottom: 80px;
-}
-
-contact-us-text-container {
-  height: 143px;
-  margin: 90px 0;
-  align-items: center;
-}
-
 .card-text .mail a {
   color: #616161;
   font-family: Rubik;
@@ -338,9 +316,8 @@ contact-us-text-container {
 }
 
 .headline-box h1 {
-  display: inline-block;
-  background-color: white;
   padding: 1.5rem 0;
+  font-size: 5vw;
 }
 
 .image-in-box-sep {
