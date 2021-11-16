@@ -548,3 +548,94 @@ footer {
 .carousel-dma-h3 {
   color: #fff;
 }
+
+.head {
+  height: 140px;
+  text-align: center;
+  width: 50%;
+
+  margin-bottom: 70px;
+  margin-top: 79px;
+  margin-left: auto;
+  align-items: inherit;
+  margin-inline: auto;
+
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.1);
+  padding-top: 48px;
+}
+@media screen and (min-width: 1001px) {
+  .schedule-table {
+    font-size: 20px;
+
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1000px) {
+  .schedule-table {
+    font-size: 10px;
+  }
+
+}
+#sched{
+  font-size: 4.5vw;
+}
+
+table tr:first-child th {
+  padding: 8px 10px;
+  background-color: #ec5863;
+  color: white;
+}
+.time {
+  background-color: #4285f4;
+  font-weight: bold;
+  color: white;
+}
+.schedule-table th,
+td {
+  text-align: center;
+
+  border: 5px groove #ec5863 !important;
+}
+
+th {
+  font-weight: bolder;
+}
+td {
+}
+
+#logo2 {
+  background: white;
+  color: #ec5863;
+}
+table {
+  width: 100%;
+  table-layout: fixed;
+  height: 450px;
+  padding: 0;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+#dma-pic{
+  width: 35%;
+  height: auto;
+  margin-top: 2px;
+}
+
+#rwd-pic{
+  width: 35%;
+  height: auto;
+  margin-top: 2px;
+
+}
+#sdj-pic{
+  width: 35%;
+  height: auto;
+  margin-top: 2px;
+
+}
