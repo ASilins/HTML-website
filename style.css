@@ -545,7 +545,22 @@ footer {
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 1000px) {
   .schedule-table {
-    font-size: 10px;
+    font-size: 8px;
+  }
+
+}
+
+@media screen and (min-width: 801px) {
+  .sched {
+    font-size: 50px;
+
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 800px) {
+  .sched {
+    font-size: 25px;
   }
 
 }
