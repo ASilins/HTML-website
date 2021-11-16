@@ -145,7 +145,7 @@ nav {
   margin-bottom: 5rem;
 }
 .content p {
-  margin-bottom: 5.5rem;
+  /*margin-bottom: 5.5rem;*/
   margin-left: 1rem;
 }
 .content a {
@@ -164,11 +164,18 @@ nav {
   padding-bottom: 10px;
 }
 
+@media screen and (max-width: 992px){
+  .no-box-sep {
+    width: 80%;
+  }
+}
+
 .no-box-sep img {
-  padding: 1rem 0;
+  /*padding: 1rem 0;*/
+  padding-bottom: 1.5rem;
   width: 80%;
   height: 100%;
-  margin: 0 10%;
+  /*margin: 0 10%;*/
 }
 
 @media screen and (max-width: 991px) {
@@ -457,11 +464,16 @@ footer {
   }
 }
 
+.courses-img {
+  /*min-width: 220px;*/
+  padding: 0;
+}
+
 /* Carousel */
 
 .carousel {
 
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.5rem;
 }
 .carousel-control-prev:hover {
   border-radius: 20px 0 0 20px;
@@ -483,11 +495,24 @@ footer {
 }
 
 .carousel-inner {
-  max-height: 55rem;
+  max-height: 45rem;
+  height: 45rem;
   background: white url(Images/CoursesBackground.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+
+@media screen and (max-width: 680px) {
+  .carousel-inner {
+    max-height: 40rem;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .carousel-inner {
+    max-height: 30rem;
+  }
 }
 
 .carousel-item {
