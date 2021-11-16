@@ -153,6 +153,12 @@ nav {
   }
 }
 
+@media screen and (max-width: 464px) {
+  nav {
+    padding: 0 1rem;
+  }
+}
+
 #schedule a {
   margin-bottom: 0;
   color: #fcfdfe;
