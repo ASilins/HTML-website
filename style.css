@@ -144,19 +144,17 @@ nav {
 }
 .content a {
   color: black;
-  margin-bottom: 2rem;
+}
+.blue-index {
+  color: black;
+  margin-bottom: 20%;
 }
 
 /* Image without box */
 
-.img-no-box {
-  max-height: 20rem;
-  max-width: 25rem;
-}
 
-.img-no-box img {
-  height: 100%;
-}
+
+/*
 @media screen and (max-width: 540px) {
   .img-no-box {
     max-width: 80%;
@@ -167,6 +165,9 @@ nav {
     padding-right: 10rem;
   }
 }
+
+
+ */
 @media screen and (max-width: 991px) {
   .img-no-box {
     margin-top: 10rem;
@@ -176,6 +177,9 @@ nav {
   .image-in-box {
     margin: 5rem 0;
   }
+
+
+
   .sep,
   .top {
     padding: 0;
@@ -206,7 +210,6 @@ nav {
   padding: 13px 24px;
   margin-left: 10px;
   border-radius: 5px;
-
   transition: 200ms;
 }
 
@@ -214,6 +217,7 @@ nav {
 
 .blue {
   background-color: #4285f4;
+
 }
 
 .blue:hover {
@@ -242,6 +246,21 @@ nav {
 }
 
 /* contact By Bhupas*/
+
+
+.no-box-sep{
+  margin-top: auto;
+  width: 50%;
+  padding-bottom: 10px;
+
+}
+
+.no-box-sep img {
+  padding: 1rem 0;
+  width: 80%;
+  high:100%;
+  margin: 0 10%;
+}
 
 .contact_head {
   height: 140px;
@@ -331,7 +350,6 @@ contact-us-text-container {
 
 /* Start of Sep*/
 
-
 .headline-in-box-container {
   align-items: center;
   justify-content: center;
@@ -350,21 +368,52 @@ contact-us-text-container {
   padding: 1.5rem 0;
 }
 
-.image-in-box {
-  max-height: 20rem;
-  width: auto;
+
+.image-in-box-sep{
+  margin-top: 10%;
+  width: 50%;
   border-radius: 10px;
   box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.1);
-
   background-color: #fff;
+  margin-bottom: 10%;
+  padding-bottom: 10px;
+
 }
-.image-in-box img {
-  max-height: 19rem;
+
+.image-in-box-sep img {
   padding: 1rem 0;
-  width: auto;
-  margin: 0 2rem;
-  margin-top: 1rem;
+  width: 80%;
+  high:100%;
+  margin: 0 10%;
+  margin-top: 5%;
 }
+.image-in-box-index{
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.1);
+  background-color: #fff;
+  margin-bottom: 10%;
+  padding-bottom: 10px;
+
+}
+.image-in-box-index img {
+  padding: 1rem 0;
+  width: 80%;
+  high:100%;
+  margin: 0 10%;
+  margin-top: 5%;
+}
+
+
+
+/*
+.content-sep {
+  margin-bottom:10%
+}
+
+ */
+
+
 /* End of Sep*/
 
 
