@@ -449,7 +449,7 @@ footer {
 
 .carousel {
 
-  margin-bottom: 1.5rem;
+  margin-bottom: 7.5rem;
 }
 .carousel-control-prev:hover {
   border-radius: 20px 0 0 20px;
@@ -518,6 +518,8 @@ footer {
 .carousel-dma-h3 {
   color: #fff;
 }
+
+/* End of carousel */
 
 .head {
   height: 140px;
@@ -607,19 +609,19 @@ table {
 }
 
 #dma-pic{
-  width: 35%;
+  width: 100%;
   height: auto;
   margin-top: 2px;
 }
 
 #rwd-pic{
-  width: 35%;
+  width: 100%;
   height: auto;
   margin-top: 2px;
 
 }
 #sdj-pic{
-  width: 35%;
+  width: 100%;
   height: auto;
   margin-top: 2px;
 
